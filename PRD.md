@@ -1,11 +1,10 @@
-#Product Requirements Document (PRD) for Staking Contract
+## Product Requirements Document (PRD) for Staking Contract
 
-##Overview
+### Overview
 
 The goal of this project is to create a staking contract that allows users to deposit ETH and earn a certain token at an annualized APR of 14%. The contract will automatically convert ETH to WETH and mint receipt tokens to the depositor. Users can opt-in for auto-compounding, which will convert their earned tokens to WETH and stake them back as principal. The contract will charge a 1% fee for auto-compounding, which will be used as a reward for the person who triggers the operation.
 
-
-##Features
+### Features
 
 - Accepts ETH deposits and automatically converts them to WETH
 - Mints receipt tokens to the depositor based on the proportion of ETH deposited
