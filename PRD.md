@@ -33,7 +33,8 @@ The goal of this project is to create a staking contract that allows users to de
 
 - Include a function for converting ETH to WETH using the WETH contract
 - Include a mapping to keep track of the WETH balance of the contract
-Step 3: Mint Receipt Tokens
+
+**Step 3: Mint Receipt Tokens**
 - Include a function for minting receipt tokens to the depositor based on the proportion of ETH deposited
 - Include a mapping to keep track of the receipt token balance of each user
 
@@ -54,7 +55,8 @@ Step 3: Mint Receipt Tokens
 - Include a function for triggering auto-compounding
 - The person who triggers auto-compounding receives a reward from the total auto-compounding fee of people in the pool
 - Include a function for calculating the auto-compounding fee and distributing it to the person who triggered the operation
-Step 7: Withdraw Tokens and ETH
+
+**Step 7: Withdraw Tokens and ETH**
 - Include a function for withdrawing tokens and ETH
 - Include a mapping to keep track of the time each user last withdrew
 
